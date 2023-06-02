@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Libary</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<p>Nguyễn Bắc Giang - T2207E</p>
 <h1>Book List</h1>
     <div id="search" style="width: 800px; margin: 10px auto;">
     <?php
@@ -29,7 +31,7 @@
             die("<h3>không tìm thấy dữ liệu</h3>");
     ?> 
     <table width="800"  align="center" border="1" cellpadding="5">
-        <Tr bgcolor="pink" height="30">
+        <Tr bgcolor="green" height="30">
             <th>bookid</th>
             <th>authorid</th>
             <th>title</th>
